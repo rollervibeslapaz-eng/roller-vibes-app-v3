@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roller Vibes MX La Paz</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#00bcd4" />
+  <style>
+    body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#111}
+    .app{max-width:480px;margin:auto;padding:20px}
+    .card{background:white;border-radius:24px;padding:22px;box-shadow:0 8px 24px rgba(0,0,0,.10);margin-bottom:18px}
+    .logo{width:170px;height:170px;display:block;margin:0 auto 15px;border-radius:28px}
+    h1{text-align:center;margin:0;font-size:28px}
+    .subtitle{text-align:center;color:#0a8fa3;font-weight:bold}
+    .btn{display:block;text-decoration:none;background:#111;color:white;padding:16px;border-radius:16px;text-align:center;font-weight:bold;margin:10px 0}
+    .btn.alt{background:#00a6c8}
+    .btn.pay{background:#f97316}
+    h2{margin-bottom:8px}
+    li{margin:6px 0}
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <img src="logo.png" class="logo" alt="Roller Vibes MX La Paz">
+      <h1>Roller Vibes MX La Paz</h1>
+      <p class="subtitle">Club Deportivo Sobre Ruedas</p>
+      <p>Bienvenido a Roller Vibes MX La Paz, club de patinaje recreativo para niñas, niños, adolescentes y adultos que quieran aprender a patinar de forma segura y divertida.</p>
+    </section>
+
+    <section class="card">
+      <h2>Registro</h2>
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScAbhgziWvpjHZFDgQl0-TBu1129uG9FuNLO66Kmv2oNuO9Bw/viewform?usp=header">Inscripción niños</a>
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSckEsq7Pod2BtqvatpGN_XAoIUA3getfvB1WG1-KCm-tewTGA/viewform?usp=header">Inscripción adultos</a>
+      <a class="btn alt" href="https://docs.google.com/forms/d/e/1FAIpQLSf9pe1bSw4oVI6ceYoYMXnWwhTw2WvtwsBjwG_gaEiXd5zfcQ/viewform?usp=header">Actualizar datos</a>
+      <a class="btn pay" href="https://docs.google.com/forms/d/e/1FAIpQLSd3KIKIfrHDjIlYiTFCi-90T0p9nSztUSegMvmNJmMOiy7nGg/viewform?usp=header">Reportar pago</a>
+    </section>
+
+    <section class="card">
+      <h2>Horarios</h2>
+      <p><strong>Niños:</strong></p>
+      <ul>
+        <li>Martes y jueves: 5:00 a 8:00 p.m.</li>
+        <li>Miércoles y viernes: 5:00 a 8:00 p.m.</li>
+      </ul>
+      <p><strong>Adultos:</strong></p>
+      <ul>
+        <li>Martes y jueves: 8:00 a 9:30 p.m.</li>
+        <li>Miércoles y viernes: 8:00 a 9:30 p.m.</li>
+        <li>Sábados y domingos: 6:00 a 7:30 p.m.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Costos</h2>
+      <p><strong>Inscripción:</strong> sin costo</p>
+      <p><strong>Mensualidad base:</strong> $599</p>
+      <p><strong>Promoción:</strong> $799 + playera oficial el primer mes. Después aplica la mensualidad correspondiente según el grupo del alumno.</p>
+    </section>
+
+    <section class="card">
+      <h2>Equipo obligatorio</h2>
+      <ul>
+        <li>Casco</li>
+        <li>Rodilleras</li>
+        <li>Coderas</li>
+        <li>Muñequeras</li>
+        <li>Patines clásicos o en línea</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contacto</h2>
+      <a class="btn alt" href="https://wa.me/526124433992">WhatsApp</a>
+      <a class="btn" href="https://www.facebook.com/share/1CxW7MMiM4/">Facebook</a>
+      <a class="btn" href="https://tiktok.com/@rollervibesmxlpz">TikTok</a>
+    </section>
+  </main>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+</body>
+</html>
