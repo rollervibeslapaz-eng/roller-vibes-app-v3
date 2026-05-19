@@ -1,0 +1,20 @@
+{
+  "name": "Roller Vibes MX La Paz",
+  "short_name": "Roller Vibes",
+  "description": "App oficial de Roller Vibes MX La Paz para registros, pagos, horarios y avisos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#00bcd4",
+  "orientation": "portrait",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
