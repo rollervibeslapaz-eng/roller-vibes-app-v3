@@ -100,8 +100,10 @@
 
   <script>
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("service-worker.js");
-    }
+    navigator.serviceWorker.register("service-worker.js").then(registration => {
+      registration.update();
+    });
+  }
   </script>
   <button id="installBtn" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; padding:16px; border:none; border-radius:16px; background:#00a6c8; color:white; font-weight:bold; font-size:16px;">
   Instalar app Roller Vibes
