@@ -1,4 +1,4 @@
-const CACHE_NAME = "roller-vibes-cache-v1";
+const CACHE_NAME = "roller-vibes-cache-v2";
 
 const urlsToCache = [
   "./",
